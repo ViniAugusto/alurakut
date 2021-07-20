@@ -270,6 +270,7 @@ export function OrkutNostalgicIconSet(props) {
         { name: 'Sexy', slug: 'sexy', icon: 'heart' },
       ].map(({ name, slug, icon }) => {
         const total = props[slug] ? props[slug] : 2;
+        console.log(name);
         return (
           <li key={`orkut__icon_set__${slug}`}>
             <span className="OrkutNostalgicIconSet__title">
